@@ -30,13 +30,7 @@ In another terminal tab run
 npm run start
 ```
 
-### 3. Start the GraphQL server
-
-Launch your GraphQL server with this command:
-
-```
-npm run dev
-```
+### 3. Open in browser
 
 Navigate to [http://localhost:4000](http://localhost:4000) in your browser to explore the GraphQL Playground. Then navigate to [http://localhost:5555](http://localhost:5555) in your broswer to view Prisma Studio.
 
