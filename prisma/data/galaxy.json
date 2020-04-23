@@ -1,0 +1,210 @@
+[
+    {
+       "_id": "5e9e3380474cbc605dd1af8f",
+       "category": "Galaxy",
+       "name": "Milky Way",
+       "constellation": "Sagittarius",
+       "nameOrigin": "The appearance from Earth of the galaxy – a band of light.",
+       "distance": "0"
+    },
+    {
+       "_id": "5e9e3410474cbc605dd1af90",
+       "category": "Galaxy",
+       "name": "Andromeda Galaxy",
+       "constellation": "Andromeda",
+       "nameOrigin": "Andromeda, which is shortened from \"Andromeda Galaxy\", gets its name from the area of the sky in which it appears, the constellation of Andromeda.",
+       "distance": "2.5"
+    },
+    {
+       "_id": "5e9e3468474cbc605dd1af91",
+       "category": "Galaxy",
+       "name": "Antennae Galaxies",
+       "constellation": "Corvus",
+       "nameOrigin": "Looks are similar to an insect's antennae.",
+       "distance": "45"
+    },
+    {
+       "_id": "5e9e34f3474cbc605dd1af93",
+       "category": "Galaxy",
+       "name": "Backward Galaxy",
+       "constellation": "Centaurus",
+       "nameOrigin": "It appears to rotate backwards, as the tips of the spiral arms point in the direction of rotation.",
+       "distance": "111"
+    },
+    {
+       "_id": "5e9e352c474cbc605dd1af94",
+       "category": "Galaxy",
+       "name": "Black Eye Galaxy",
+       "constellation": "Coma Berenice",
+       "nameOrigin": "It has a spectacular dark band of absorbing dust in front of the galaxy's bright nucleus, giving rise to its nicknames of the \"Black Eye\" or \"Evil Eye\" galaxy.",
+       "distance": "24"
+    },
+    {
+       "_id": "5e9e3550474cbc605dd1af95",
+       "category": "Galaxy",
+       "name": "Bode's Galaxy",
+       "constellation": "Ursa Major",
+       "nameOrigin": "Named for Johann Elert Bode who discovered this galaxy in 1774.",
+       "distance": "12"
+    },
+    {
+       "_id": "5e9e357e474cbc605dd1af96",
+       "category": "Galaxy",
+       "name": "Butterfly Galaxies",
+       "constellation": "Virgo",
+       "nameOrigin": "Looks are similar to a butterfly.",
+       "distance": "26"
+    },
+    {
+       "_id": "5e9e35a6474cbc605dd1af97",
+       "category": "Galaxy",
+       "name": "Cartwheel Galaxy",
+       "constellation": "Sculptor",
+       "nameOrigin": "Its visual appearance is similar to that of a spoked cartwheel.",
+       "distance": "496"
+    },
+    {
+       "_id": "5e9e35f1474cbc605dd1af98",
+       "category": "Galaxy",
+       "name": "Cigar Galaxy",
+       "constellation": "Ursa Major",
+       "nameOrigin": "Appears similar in shape to a cigar.",
+       "distance": "11.5"
+    },
+    {
+       "_id": "5e9e3618474cbc605dd1af99",
+       "category": "Galaxy",
+       "name": "Circinus Galaxy",
+       "constellation": "Circinus",
+       "nameOrigin": "Named after the constellation it is located in (Circinus).",
+       "distance": "14"
+    },
+    {
+       "_id": "5e9e36af474cbc605dd1af9a",
+       "category": "Galaxy",
+       "name": "Coma Pinwheel Galaxy",
+       "constellation": "Coma Benerices",
+       "nameOrigin": "Named after its resemblance to the Pinwheel Galaxy and its location in the Coma Benerices constellation.",
+       "distance": "45.2"
+    },
+    {
+       "_id": "5e9e36fd474cbc605dd1af9b",
+       "category": "Galaxy",
+       "name": "Comet Galaxy",
+       "constellation": "Sculptor",
+       "nameOrigin": "This galaxy is named after its unusual appearance, looking like a comet.",
+       "distance": "3333.2"
+    },
+    {
+       "_id": "5e9e3732474cbc605dd1af9c",
+       "category": "Galaxy",
+       "name": "Cosmos Redshift 7",
+       "constellation": "Sextans",
+       "nameOrigin": "The name of this galaxy is based on a redshift (z) measurement of nearly 7 (actually, z = 6.604).[2]",
+       "distance": "1222.9"
+    },
+    {
+       "_id": "5e9e3760474cbc605dd1af9d",
+       "category": "Galaxy",
+       "name": "Eye of Sauron",
+       "constellation": "Canes Venatici",
+       "nameOrigin": "Due to its resemblance to the Eye of Sauron from the Lord of the Rings.",
+       "distance": "62"
+    },
+    {
+       "_id": "5e9e37cf474cbc605dd1af9e",
+       "category": "Galaxy",
+       "name": "Fireworks Galaxy",
+       "constellation": "Cygnus and Cepheus",
+       "nameOrigin": "Due to its bright and spotty appearance.",
+       "distance": "22.5"
+    },
+    {
+       "_id": "5e9e383b474cbc605dd1af9f",
+       "category": "Galaxy",
+       "name": "Hockey Stick Galaxies",
+       "constellation": "Canes Venatici",
+       "nameOrigin": "Its elongated and curved appearance resembles a hockey stick.",
+       "distance": "30"
+    },
+    {
+       "_id": "5e9e385f474cbc605dd1afa0",
+       "category": "Galaxy",
+       "name": "Hoag's Object",
+       "constellation": "Serpens Caput",
+       "nameOrigin": "This is named after Art Hoag, who discovered this ring galaxy.",
+       "distance": "600"
+    },
+    {
+       "_id": "5e9e38b6474cbc605dd1afa2",
+       "category": "Galaxy",
+       "name": "Large Magellanic Cloud",
+       "constellation": "Dorado/Mensa",
+       "nameOrigin": "Named after Ferdinand Magellan.",
+       "distance": "163"
+    },
+    {
+       "_id": "5e9e38d7474cbc605dd1afa3",
+       "category": "Galaxy",
+       "name": "Lindsay-Shapley Ring",
+       "constellation": "Volans",
+       "nameOrigin": "Named after its discoverer, Eric Lindsay, his professor Harlow Shapley, and its nature as a ring galaxy.",
+       "distance": "300"
+    },
+    {
+       "_id": "5e9e3902474cbc605dd1afa4",
+       "category": "Galaxy",
+       "name": "Little Sombrero Galaxy",
+       "constellation": "Pegasus",
+       "nameOrigin": "Named after its similarity to the Sombrero Galaxy.",
+       "distance": "29.3"
+    },
+    {
+       "_id": "5e9e392a474cbc605dd1afa5",
+       "category": "Galaxy",
+       "name": "Medusa Merger",
+       "constellation": "Ursa Major",
+       "nameOrigin": "Ejected dust from the merging galaxies is said to look like the snakes that the Gorgon Medusa from Greek mythology had on her head.",
+       "distance": "130"
+    },
+    {
+       "_id": "5e9e393d474cbc605dd1afa6",
+       "category": "Galaxy",
+       "name": "Medusa Merger",
+       "constellation": "Ursa Major",
+       "nameOrigin": "Ejected dust from the merging galaxies is said to look like the snakes that the Gorgon Medusa from Greek mythology had on her head.",
+       "distance": "130"
+    },
+    {
+       "_id": "5e9e39a7474cbc605dd1afa7",
+       "category": "Galaxy",
+       "name": "Sculptor Dwarf Galaxy",
+       "constellation": "Sculptor",
+       "nameOrigin": "Similar to the Sculpture Galaxies",
+       "distance": "29"
+    },
+    {
+       "_id": "5e9e39c9474cbc605dd1afa8",
+       "category": "Galaxy",
+       "name": "Mice Galaxies",
+       "constellation": "Coma Berenices",
+       "nameOrigin": "Looks are similar to a mouse.",
+       "distance": "300"
+    },
+    {
+       "_id": "5e9e39ef474cbc605dd1afa9",
+       "category": "Galaxy",
+       "name": "Mayall's Object",
+       "constellation": "Ursa Major",
+       "nameOrigin": "This is named after Nicholas Mayall, of the Lick Observatory, who discovered it.",
+       "distance": "500"
+    },
+    {
+       "_id": "5e9e3a0b474cbc605dd1afaa",
+       "category": "Galaxy",
+       "name": "Milky Way",
+       "constellation": "Sagittarius",
+       "nameOrigin": "The appearance from Earth of the galaxy – a band of light.",
+       "distance": "0"
+    }
+ ]

@@ -2,12 +2,12 @@ import { idArg, queryType, stringArg } from 'nexus';
 
 export const Query = queryType({
     definition(t) {
-        t.field('Person', {
-            type:'Person',
+        t.field('Galaxy', {
+            type:'Galaxy',
             nullable: true,
             args: { id: idArg() },
             resolve: (parent, { id }, ctx) => {
-                return ctx.prisma.person.findOne({
+                return ctx.prisma.galaxy.findOne({
                     where: {
                         id,
                     }
@@ -15,24 +15,27 @@ export const Query = queryType({
             }
         })
 
-        t.list.field('People', {
-            type: 'Person',
+        t.list.field('Galaxy', {
+            type: 'Galaxy',
             resolve: (parent, arg, ctx) => {
-                return ctx.prisma.person.findMany()
+                return ctx.prisma.galaxy.findMany()
             }
         })
 
-        t.list.field('filterPeople', {
-            type: 'Person',
+        t.list.field('filterGalaxies', {
+            type: 'Galaxy',
             args: {
                 searchstring: stringArg({ nullable: true }),
             },
             resolve: (parent, { searchstring }, ctx) => {
-                return ctx.prisma.person.findMany({
+                return ctx.prisma.galaxy.findMany({
                     where: {
                         OR: [
+                            { category: {contains: searchstring }},
                             { name: {contains: searchstring }},
-                            { age: {contains: searchstring }}
+                            { constellation: {contains: searchstring }},
+                            { nameOrigin: {contains: searchstring }},
+                            { distance: {contains: searchstring }},
                         ],
                     },
                 })

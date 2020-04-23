@@ -1,41 +1,53 @@
-import { idArg, mutationType, stringArg, intArg } from 'nexus';
+import { idArg, mutationType, stringArg } from 'nexus';
 
 export const Mutation = mutationType({
     name: 'Mutation',
     definition(t) {
-        t.crud.deleteOnePerson()
+        t.crud.deleteOneGalaxy()
 
-        t.field('createPerson', {
-            type: 'Person',
+        t.field('createGalaxy', {
+            type: 'Galaxy',
             args: {
+                category: stringArg({ nullable: false}),
                 name: stringArg({ nullable: false }),
-                age: intArg({ nullable: false })
+                constellation: stringArg({ nullable: false }),
+                nameOrigin: stringArg({ nullable: false }),
+                distance: stringArg({ nullable: false })
             },
-            resolve: (parent, { name, age }, ctx) => {
-                return ctx.prisma.person.create({
+            resolve: (parent, { category, name, constellation, nameOrigin, distance  }, ctx) => {
+                return ctx.prisma.galaxy.create({
                     data: {
+                        category,
                         name,
-                        age,
+                        constellation,
+                        nameOrigin,
+                        distance
                     }
                 })
             }
         })
 
-        t.field('updatePerson', {
-            type: 'Person',
+        t.field('updateGalaxy', {
+            type: 'Galaxy',
             args: { 
                 id: idArg(),
+                category: stringArg(),
                 name: stringArg(),
-                age: intArg()
+                constellation: stringArg(),
+                nameOrigin: stringArg(),
+                distance: stringArg(),
             },
-            resolve: (parent, { id, name, age}, ctx) => {
-                return ctx.prisma.person.update({
+            resolve: (parent, { id, category, name, constellation, nameOrigin, distance}, ctx) => {
+                return ctx.prisma.galaxy.update({
                     where: {
                         id
                     },
                     data: {
+                        category,
                         name,
-                        age
+                        constellation, 
+                        nameOrigin,
+                        distance
                     }
                 })
             }

@@ -1,16 +1,19 @@
 import { objectType } from 'nexus';
 
-const Person = objectType({
-    name: 'Person',
+const Galaxy = objectType({
+    name: 'Galaxy',
     definition(t) {
         t.model.id()
-        t.model.created()
+        t.model.createdAt()
         t.model.updatedAt()
+        t.model.category()
         t.model.name()
-        t.model.age()
+        t.model.constellation()
+        t.model.nameOrigin()
+        t.model.distance()
     }
 })
 
 export const Models = [
-    Person
+    Galaxy
 ];

@@ -3,16 +3,19 @@ import fs from 'fs'
 
 const prismaClient = new PrismaClient()
 
-const people = fs.readFileSync('prisma/data/people.json')
+const galaxies = fs.readFileSync('prisma/data/galaxy.json')
 
-function loadPeople() {
-  const list = JSON.parse(people)
+function loadGalaxies() {
+  const list = JSON.parse(galaxies)
   
- return list.map(person => {
+ return list.map(galaxy => {
     return {
       data: {
-        name: person.name,
-        age: person.age
+        category: galaxy.category,
+        name: galaxy.name,
+        constellation: galaxy.constellation,
+        nameOrigin: galaxy.nameOrigin,
+        distance: galaxy.distance
       }
     }
   })
@@ -20,10 +23,10 @@ function loadPeople() {
 
 async function main() {
   try {
-    const allPeople = loadPeople()
-    for(let person of allPeople) {
-      await prismaClient.person.create(person)
-      .catch(err => console.error(`Error trying to generate people `))
+    const allGalaxies = loadGalaxies()
+    for(let galaxy of allGalaxies) {
+      await prismaClient.galaxy.create(galaxy)
+      .catch(err => console.error(`Error trying to generate items `))
     } 
   } catch(err) {
     console.log(err)

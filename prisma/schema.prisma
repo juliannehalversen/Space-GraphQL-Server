@@ -1,16 +1,19 @@
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://postgres:docker@localhost:5432/pg-docker?schema=public"
+  url = "postgresql://postgres:docker@localhost:5432/pg-docker?schema=public"
 }
 
 generator client {
   provider = "prisma-client-js"
 }
 
-model Person {
+model Galaxy {
   id String @default(cuid()) @id
   createdAt DateTime @default(now()) 
   updatedAt DateTime @updatedAt
+  category String
   name  String 
-  age   Int
+  constellation   String
+  nameOrigin String
+  distance String
 }
