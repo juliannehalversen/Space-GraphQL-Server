@@ -1,8 +1,8 @@
 # Space GraphQL Server
 
-This example shows how to implement a **GraphQL server with JavaScript (Node.js)** based on  [Prisma Client](https://github.com/prisma/prisma2/blob/master/docs/prisma-client-js/api.md), [apollo-server](https://www.apollographql.com/docs/apollo-server/), PostgreSQL, and [GraphQL Nexus](https://nexus.js.org/). 
+This example shows how to implement a GraphQL server with JavaScript (Node.js) based on  [Prisma Client](https://github.com/prisma/prisma2/blob/master/docs/prisma-client-js/api.md), [apollo-server](https://www.apollographql.com/docs/apollo-server/), PostgreSQL, and [GraphQL Nexus](https://nexus.js.org/). 
 
-Below are instructions on how to test the functionality in Prisma studio. If you would like this connected to the front end, then follow the steps 1-3 and follow the instructions for the [front end repository](https://github.com/juliannehalversen/Space-Frontend)
+Below are instructions on how to test the functionality in Prisma studio. **If you would like this connected to the front end, then follow the steps 1-3 and follow the instructions for the [front end repository](https://github.com/juliannehalversen/Space-Frontend)**
 
 ## How to use
 
@@ -12,9 +12,9 @@ Below are instructions on how to test the functionality in Prisma studio. If you
 git clone https://github.com/juliannehalversen/Space-GraphQL-Server.git
 ```
 
-### 2. Download example & install dependencies
+### 2. Install dependencies
 
-Install npm dependencies:
+Install project dependencies:
 
 ```
 cd Space-GraphQL-Server
