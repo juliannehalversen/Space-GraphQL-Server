@@ -64,10 +64,14 @@ query getAllGalaxies {
 
 #### Get a single Person
 ```graphql
-query getPerson {
-  Person (id: "ck8hvilvm0003xh14cgqfng3r") {
+query getOne {
+  Galaxy (id:"ck9hile6z0000kh14fi9uov8o") {
+    id
+    category
     name
-    age
+    constellation
+    nameOrigin
+    distance
   }
 }
 ```

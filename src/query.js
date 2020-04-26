@@ -2,6 +2,7 @@ import { idArg, queryType, stringArg } from 'nexus';
 
 export const Query = queryType({
     definition(t) {
+        t.crud.galaxy()
         t.field('Galaxy', {
             type:'Galaxy',
             nullable: true,
@@ -13,9 +14,9 @@ export const Query = queryType({
                     }
                 })
             }
-        })
+        }) 
 
-        t.list.field('Galaxy', {
+        t.list.field('Galaxies', {
             type: 'Galaxy',
             resolve: (parent, arg, ctx) => {
                 return ctx.prisma.galaxy.findMany()
