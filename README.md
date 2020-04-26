@@ -62,7 +62,7 @@ query getAllGalaxies {
 }
 ```
 
-#### Get a single Person
+Run this query to get a single item: 
 ```graphql
 query getOne {
   Galaxy (id:"ck9hile6z0000kh14fi9uov8o") {
